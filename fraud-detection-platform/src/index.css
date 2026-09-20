@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #030507;
+    color: #F5F7FA;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+/* Custom Cyberpunk Scrollbar & Glowing Panel Effects */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06090D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00F0FF;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.4);
+}
